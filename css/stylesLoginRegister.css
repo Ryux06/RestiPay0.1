@@ -1,0 +1,150 @@
+body {
+    background-color: #131313;
+}
+
+
+/* --------COLORES-------- */
+
+
+.Bg1 {background-color: #131313;}
+
+.Bg2 {background-color: #1F1F1F;}
+
+.Bg3 {background-color: #373737;}
+
+.Bg4 {background-color: #FFC692;}
+
+.Bg5 {background-color: #1f3521;}  /*Verde Oscuro{background-color: #2F351F;}*/
+
+.Bg6 {background-color: #b68d6a;}
+
+.Beige {color: #FFC692;}
+
+.Negro {color: #000000;}
+
+.GrisA {color: #DADADA;}
+
+.Blanco {color: #ffffff;}
+
+.Verde {color: #23ce31;}  /*Verrde Claro {color: #A3CE23;}*/
+
+.Letras1 {
+    font-family: 'Roboto', sans-serif;
+
+    font-family: 'Rubik', sans-serif;
+}
+
+/* --------------------------ELEMENTOS----------------------------- */
+
+.Widget {
+    width: 4rem;
+    height: 4rem;
+    background-color: #fff;
+    border-radius: 2rem;
+    margin: 1.8rem 0 1.2rem 0;
+}
+
+.Login {
+    margin-bottom: 2.5rem;
+}
+
+.Bmain {
+    border: 2px solid #FFC692;
+}
+
+.Fmain {
+    border-radius: 1rem;
+    width: 100%;
+    max-width: 400px;
+    padding: 0 3rem 0 3rem;
+}
+
+.PaddingMaximo{
+    padding-top: 10rem;
+}
+
+.Usuario {
+    border-bottom: solid 2px #FFC692;
+    margin-bottom: 2rem;
+    position: relative;
+}
+
+.Usuario input {
+    width: 100%;
+    padding: 0 0.2rem;
+    height: 2.5rem;
+    font-size: 1rem;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+.Usuario label {
+    position: absolute;
+    top: 50%;
+    left: .2rem;
+    color: #adadad;
+    transform: translateY(-50%);
+    font-size: 1rem;
+    pointer-events: none;
+    transition: .2s;
+}
+
+.Usuario span::before {
+    content: '';
+    position: absolute;
+    top: 2.5rem;
+    left: 0;
+    width: 0;
+    height: .15rem;
+    background: #DADADA;
+}
+
+/* Esto es para la animacion de los label se muevan */
+
+.Usuario input:focus ~ label,
+.Usuario input:focus ~ label{
+    top: -.15rem;
+    color: #FFC692;
+    font-size: 0.8rem;
+}
+
+.Usuario input:focus ~ span::before,
+.Usuario input:focus ~ span::before{
+    width: 100%;
+}
+
+
+/* -------------------------ETIQUETAS-------------------------- */
+input {
+    color: #ffffff;
+    font-size: 1.2rem;
+}
+
+h1 {
+    color: #fff;
+}
+
+h1 {
+    font-size: 1.8rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    width: 100%;
+    height: 2.7rem;
+    border-radius: 1rem;
+    border: 2px solid #FFC692;
+    background: #131313;
+    color: #fff;
+    transition: 120ms;
+}
+
+button:hover{
+    border: 2px solid #131313;
+    background-color: #FFC692;
+    color: #000000;
+}
