@@ -337,3 +337,55 @@ h1 {
     font-size: 1.5rem;
     padding-top: .3rem;
 }
+
+
+/* ----------------EVENTOS------------- */
+
+
+.Historial {
+    background-color: rgb(0, 0, 0, 0.95);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.Historial-2 {
+    margin-top: 9rem;
+    background-color: #1F1F1F;
+    border-radius: 1rem;
+    width: 90%;
+    height: 100%;
+    max-height: 500px;
+    max-width: 500px;
+}
+
+.caja-referido {
+    margin-top: 9rem;
+    background-color: #1F1F1F;
+    border-radius: 1rem;
+    width: 90%;
+    height: 100%;
+    max-height: 200px;
+    max-width: 500px;
+}
+
+.Boton-Balance-Salir {
+    background-color: #373737;
+    border: none;
+    outline: none;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.Xsalir {
+    color: #FFC692;
+    height: 1.5rem;
+    width: 1.5rem;
+}
