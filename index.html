@@ -5,15 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/styles.css">
-    <!-- <script defer src="js/bootstrap.js"></script> -->
-    <script defer src="js/my.js"></script>
+    <script defer src="js/bootstrap.js"></script>
+    <script defer src="js/index.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Rubik&display=swap" rel="stylesheet">
     <title>RestPay</title>
 </head>
 <body>
-    <div class="container contenedor">
+    <div class="container contenedor" id="Padre">
 
         <!--                  PARTE1                   -->
 
@@ -46,18 +46,18 @@
                 <div class="d-flex justify-content-between Bg2 Balance">
                     <div>
                         <p class="Blanco m-0 FontL Letras1">Balance:</p>
-                        <p class="Beige FontN Letras1">$11,93</p>
+                        <p class="Beige FontN Letras1" id="texto-balance">$11,93</p>
                     </div>
-                    <a href="" class="VerBalance mt-2 Letras1">Ver Balance</a>
+                    <a href="#" class="VerBalance mt-2 Letras1" id="Ver-Balance">Ver Balance</a>
                 </div>
             </div>
             <div class="col-sm-12 col-md-6 col-lg-6 mt-3">
                 <div class="d-flex justify-content-between Bg2 Balance">
                     <div>
                         <p class="Blanco m-0 FontL Letras1">Retiros:</p>
-                        <p class="Beige FontN Letras1">$55,00</p>
+                        <p class="Beige FontN Letras1" id="texto-retiro"></p>
                     </div>
-                    <a href="" class="VerBalance mt-2 Letras1">Ver Retiros</a>
+                    <a href="#" class="VerBalance mt-2 Letras1" id="Ver-Retiros">Ver Retiros</a>
                 </div>
             </div>
         </div>
@@ -149,7 +149,7 @@
                         </svg>
                     </div>
                     <div class="my-1 Bg3 justify-content-start justify-content-sm-center py-2 pt-0">
-                        <a href="" class="VerAnuncio Letras1 Bg2">Ir a referidos</a>
+                        <a href="#" class="VerAnuncio Letras1 Bg2" id="Ver-Link">Ver Link</a>
                     </div>
                 </div>
                 <div class="Bg2 pt-4 px-3 pb-3">
